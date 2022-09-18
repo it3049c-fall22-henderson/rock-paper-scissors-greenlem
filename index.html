@@ -21,23 +21,23 @@
                     <input type="text" id="username" name="username"><br>Enter Name Here<br>
                 </div>
             </form>
-            <button id="start-game-button">Start Game!</button>
+            <button id="start-game-button" class="btn btn-primary">Start Game!</button>
         </div>
 
         <div id="game-screen">
             <div id="score-tally">
                 <p id="score">User: 0 v CPU: 0</p>
             </div>
-            <form id="game-form">
+            <form id="game-form" calss="form-group">
                 <div>
                     <label for="user-selection">Select your choice</label>
-                    <select name="user-selection" id="user-selection">
-                        <option value="rock">Rock</option>
-                        <option value="paper">Paper</option>
-                        <option value="scissors">Scissors</option>
+                    <select name="user-selection" id="user-selection" class="custom-select">
+                        <option value="0">Rock</option>
+                        <option value="1">Paper</option>
+                        <option value="2">Scissors</option>
                     </select>
                 </div>
-                <button id="go-button">Go!</button>
+                <button id="go-button" class="btn btn-success">Go!</button>
             </form>
             <p id="game-history"></p>
         </div>
